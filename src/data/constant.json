@@ -1,0 +1,172 @@
+ [
+   {
+        "divinedestiny":
+        {
+            "name" : "Dhawal Bagadia",
+            "companyName" : "Divine Destiny",
+            "professionalTitle": "Interior designer and consultant",
+            "facebookLink":"",
+            "instagramLink":"",
+            "phoneNumber":"+91 9892673299",
+            "whatsappNumber":"9892673299",
+            "whatsappDefaultMsg":"",
+            "emailId":"",
+            "emailDefaultMessage":"",
+            "emaidIdCC":"",
+            "linkedinLink":"",
+            "youtubeLink":"",
+            "pages":[{
+                "name": "Order List View",
+                "title":"Why Choose us",
+                "component": "OrderListView"
+              },
+              {
+                "page": "Story",
+                "title":"Services",
+                "component": "Story"
+              },
+              {
+                "page": "Projects",
+                "title":"Projects",
+                "component": "Projects"
+              },
+              {
+                "page": "Slider",
+                "title":"Customer Delight",
+                "component": "Slider"
+              }],
+            "orderList":["12+ Years of Experience", "Quality products", "Creative Design"
+                ,"Latest Trends","Vastu satra consultancy","50+ Projects completed",
+                "Free Basic Consultation","20+ Happy clients"],
+            "stories":[{
+                "title" : "Home Interior",
+                "images":[]
+            },
+            {
+                "title" : "Office Interior",
+                "images":[]
+            },
+            {
+                "title" : "Shop Interior",
+                "images":[]
+            },
+            {
+                "title" : "Modular Kitchen and Manufacturing",
+                "images":[]
+            },
+            {
+                "title" : "Consultancy",
+                "images":[]
+            },
+            {
+                "title" : "Home Automation",
+                "images":[]
+            }],
+            "projects":[],
+            "testimonials":[{
+                "id": 1,
+                "image":"https://res.cloudinary.com/diqqf3eq2/image/upload/v1595959131/person-2_ipcjws.jpg",
+                "name": "maria ferguson",
+                "title": "office manager",
+                "quote": "Fingerstache umami squid, kinfolk subway tile selvage tumblr man braid viral kombucha gentrify fanny pack raclette pok pok mustache."
+              },
+              {
+                "id": 2,
+                "image": "https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883417/person-3_ipa0mj.jpg",
+                "name": "john doe",
+                "title": "regular guy",
+                "quote":"Gastropub sustainable tousled prism occupy. Viral XOXO roof party brunch actually, chambray listicle microdosing put a bird on it paleo subway tile squid umami."
+              },
+              {
+                "id": 3,
+                "image":"https://res.cloudinary.com/diqqf3eq2/image/upload/v1595959121/person-1_aufeoq.jpg",
+                "name": "peter smith",
+                "title": "product designer",
+                "quote":"Drinking vinegar polaroid street art echo park, actually semiotics next level butcher master cleanse hammock flexitarian ethical paleo."
+              },
+              {
+                "id": 4,
+                "image": "https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883334/person-1_rfzshl.jpg",
+                "name": "susan andersen",
+                "title": "the boss",
+                "quote":"Marfa af yr 3 wolf moon kogi, readymade distillery asymmetrical seitan kale chips fingerstache cloud bread mustache twee messenger bag. "
+              }],
+            "primaryColor": "#373737",
+            "secondaryColor":"#c9a56f",
+            "primaryFont" : "Montserrat",
+            "secondaryFont":"Open Sans",
+            "logo":"../../public/divinedestiny/logo.png",
+            "avatar":"",
+            "backGroundImg":""
+        },
+        "makeoverbyhardi":{
+            "name" : "Hardi Bagadia",
+            "companyName" : "@MakeOverByHardi",
+            "professionalTitle": "Professional Makeup Artist",
+            "facebookLink":"",
+            "instagramLink":"",
+            "phoneNumber":"",
+            "whatsappNumber":"",
+            "whatsappDefaultMsg":"",
+            "emailId":"",
+            "emailDefaultMessage":"",
+            "emaidIdCC":"",
+            "linkedinLink":"",
+            "youtubeLink":"",
+            "pages":[{
+                "page": "Order List View",
+                "title":"Why Choose us",
+                "component": "OrderListView"
+              },
+              {
+                "page": "Story",
+                "title":"Services",
+                "component": "Story"
+              },
+              {
+                "page": "Slider",
+                "title":"Customer Delight",
+                "component": "Slider"
+              }],
+            "orderList":[],
+            "stories":[],
+            "projects":[],
+            "testimonials":[{
+                "id": 1,
+                "image":"https://res.cloudinary.com/diqqf3eq2/image/upload/v1595959131/person-2_ipcjws.jpg",
+                "name": "maria ferguson",
+                "title": "office manager",
+                "quote": "Fingerstache umami squid, kinfolk subway tile selvage tumblr man braid viral kombucha gentrify fanny pack raclette pok pok mustache."
+              },
+              {
+                "id": 2,
+                "image": "https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883417/person-3_ipa0mj.jpg",
+                "name": "john doe",
+                "title": "regular guy",
+                "quote":"Gastropub sustainable tousled prism occupy. Viral XOXO roof party brunch actually, chambray listicle microdosing put a bird on it paleo subway tile squid umami."
+              },
+              {
+                "id": 3,
+                "image":"https://res.cloudinary.com/diqqf3eq2/image/upload/v1595959121/person-1_aufeoq.jpg",
+                "name": "peter smith",
+                "title": "product designer",
+                "quote":"Drinking vinegar polaroid street art echo park, actually semiotics next level butcher master cleanse hammock flexitarian ethical paleo."
+              },
+              {
+                "id": 4,
+                "image": "https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883334/person-1_rfzshl.jpg",
+                "name": "susan andersen",
+                "title": "the boss",
+                "quote":"Marfa af yr 3 wolf moon kogi, readymade distillery asymmetrical seitan kale chips fingerstache cloud bread mustache twee messenger bag. "
+              }],
+            "primaryColor": "#373737",
+            "secondaryColor":"#c9a56f",
+            "primaryFont" : "Montserrat",
+            "secondaryFont":"Open Sans",
+            "logo":"./resource/images/logo.png",
+            "avatar":"",
+            "backGroundImg":""
+        }
+        
+    }
+]
