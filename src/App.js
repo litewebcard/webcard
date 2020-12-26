@@ -7,6 +7,7 @@ import Dashboard from './Dashboard';
 import Login from './Login';
 import Logout from './Logout'
 import ForgotPassword from './ForgotPassword';
+import Profile from './components/Profile';
 import MultiForm from './components/MultiForm';
 import PrivateRoute from './components/PrivateRoute'
 import {Container} from 'react-bootstrap';
@@ -60,7 +61,7 @@ function App() {
     if(pathname.length>1 && pathname[1]!=null && pathname[1]!="" 
         && pathname[1]!="signup" && pathname[1]!="login" && 
         pathname[1]!="forgot-password" && pathname[1]!="dashboard"
-        && pathname[1]!="logout"  && pathname[1]!="form"
+        && pathname[1]!="logout"  && pathname[1]!="form" && pathname[1]!="profile"
         ){
      setUserName(pathname[1]);
     }
@@ -153,16 +154,17 @@ function App() {
        {(userName == null || userName == "") && 
        
         <Container className = "d-flex align-items-center justify-content-center" style={{minHeight:"100vh"}}>
-          <div className = "w-100" style={{maxWidth:"400px"}}>
+          <div className = "" style={{minWidth:"90%"}}>
          
           <AuthProvider>
             <Switch>
-              <PrivateRoute exact path="/" component = {Dashboard}/>
+              <PrivateRoute exact path="/" component = {Profile}/>
               <Route path="/signup" component = {SignUp}/>
               <Route path="/login" component = {Login}/>
               <Route path="/logout" component = {Logout}/>
               <Route path="/forgot-password" component = {ForgotPassword}/>
               <PrivateRoute path="/form" component = {MultiForm} pages = {formPages}/>
+             
             </Switch>
              
           </AuthProvider>

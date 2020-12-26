@@ -52,8 +52,8 @@ function Login() {
     }
 
     return (
-        <>
-        <Card>
+        <div className="w-72 flex flex-col mx-auto">
+        <Card className="w-100">
             <Card.Body>
                 <h2 className="text-center mb-4">Reset Password</h2>
                 {message && <Alert variant="information">{message}</Alert>}
@@ -75,7 +75,7 @@ function Login() {
         <div className = "w-100 text-center mt-2">
             Need an account? <Link to="/signup">Sign up</Link>
         </div>
-        </>
+        </div>
     )
 }
 

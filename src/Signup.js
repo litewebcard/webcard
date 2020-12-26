@@ -38,8 +38,8 @@ function SignUp() {
     }
 
     return (
-        <>
-        <Card>
+        <div className="w-72 flex flex-col mx-auto">
+        <Card className = "w-100">
             <Card.Body>
                 <h2 className="text-center mb-4">Sign Up</h2>
                 {error && <Alert variant="danger" onClose={() => setError('')} dismissible><p>{error}</p></Alert>}
@@ -65,7 +65,7 @@ function SignUp() {
         <div className = "w-100 text-center mt-2">
             Already have a account? <Link to="/login">Log In</Link>
         </div>
-        </>
+        </div>
     )
 }
 
